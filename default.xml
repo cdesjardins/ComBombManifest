@@ -1,0 +1,11 @@
+<manifest>
+    <remote name="github" fetch="https://github.com"/>
+    <default revision="refs/heads/master" remote="github" sync-j="4"/>
+    <project name="cdesjardins/ComBomb" remote="github" path="ComBomb"/>
+    <project name="cdesjardins/CDLogger" remote="github" path="CDLogger"/>
+    <project name="cdesjardins/cppssh" remote="github" path="cppssh"/>
+    <project name="cdesjardins/botan" remote="github" path="botan"/>
+    <project name="cdesjardins/cl342" remote="github" path="cryptlib"/>
+    <project name="cdesjardins/QueuePtr" remote="github" path="QueuePtr"/>
+    <project name="cdesjardins/linuxConfig" remote="github" path="linuxConfig"/>
+</manifest>
