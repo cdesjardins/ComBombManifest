@@ -6,6 +6,5 @@
     <project name="cppssh.git"      remote="github" path="cppssh"/>
     <project name="cl342.git"       remote="github" path="cryptlib"/>
     <project name="QueuePtr.git"    remote="github" path="QueuePtr"/>
-    <project name="linuxConfig.git" remote="github" path="linuxConfig"/>
     <project name="botan.git"       remote="github" path="botan" revision="refs/heads/cjddev"/>
 </manifest>
