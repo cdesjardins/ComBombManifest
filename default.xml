@@ -4,7 +4,7 @@
     <project name="cdesjardins/ComBomb.git" remote="github" path="ComBomb"/>
     <project name="cdesjardins/CDLogger.git" remote="github" path="CDLogger"/>
     <project name="cdesjardins/cppssh.git" remote="github" path="cppssh"/>
-    <project name="cdesjardins/botan.git" remote="github" path="botan"/>
+    <project name="cdesjardins/botan.git" revision="refs/head/cjddev" remote="github" path="botan"/>
     <project name="cdesjardins/cl342.git" remote="github" path="cryptlib"/>
     <project name="cdesjardins/QueuePtr.git" remote="github" path="QueuePtr"/>
     <project name="cdesjardins/linuxConfig.git" remote="github" path="linuxConfig"/>
