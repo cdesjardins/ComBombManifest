@@ -7,5 +7,5 @@
     <project name="cl342.git"       remote="github" path="cryptlib"/>
     <project name="QueuePtr.git"    remote="github" path="QueuePtr"/>
     <project name="include.git"     remote="github" path="include"/>
-    <project name="botan.git"       remote="github" path="botan" revision="refs/heads/cjddev"/>
+    <project name="botan.git"       remote="github" path="botan"/>
 </manifest>
