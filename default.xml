@@ -7,4 +7,5 @@
     <project name="QueuePtr.git"    remote="github" path="QueuePtr"/>
     <project name="include.git"     remote="github" path="include"/>
     <project name="botan.git"       remote="github" path="botan"/>
+    <project name="build.git"       remote="github" path="build"/>
 </manifest>
