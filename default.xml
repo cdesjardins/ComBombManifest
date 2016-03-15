@@ -1,11 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="github" alias="origin" fetch="ssh://git@github.com/cdesjardins"/>
-    <default revision="refs/heads/master"       remote="github" sync-j="4"/>
-    <project name="ComBomb.git"     remote="github" path="ComBomb"/>
-    <project name="CDLogger.git"    remote="github" path="CDLogger"/>
-    <project name="cppssh.git"      remote="github" path="cppssh"/>
-    <project name="QueuePtr.git"    remote="github" path="QueuePtr"/>
-    <project name="include.git"     remote="github" path="include"/>
-    <project name="botan.git"       remote="github" path="botan"/>
-    <project name="build.git"       remote="github" path="build"/>
+  <remote alias="origin" fetch="ssh://git@github.com/cdesjardins" name="github"/>
+  
+  <default remote="github" revision="refs/heads/master" sync-j="4"/>
+  
+  <project name="CDLogger.git" path="CDLogger" revision="a596bf33510d63b7fc6ecfaf1df4dfe1dbfe8f0f" upstream="refs/heads/master"/>
+  <project name="ComBomb.git" path="ComBomb" revision="c0203f9cab08cccaa2ecbe430e16de47e27d6add" upstream="refs/heads/master"/>
+  <project name="QueuePtr.git" path="QueuePtr" revision="7dbb71fcda8499f99794dd7f6dddc7e33a869d37" upstream="refs/heads/master"/>
+  <project name="botan.git" path="botan" revision="62a03ea81ab7a2fe8ff79275427f3353a75e3a4f" upstream="refs/heads/master"/>
+  <project name="build.git" path="build" revision="75f550a104688aab4ce620e7fefa8bb964eb437d" upstream="refs/heads/master"/>
+  <project name="cppssh.git" path="cppssh" revision="de90a3893a461dece932c9fa7065fe15ca046caf" upstream="refs/heads/master"/>
+  <project name="include.git" path="include" revision="ae1f931c6c41861832f7298451bf2a514f9cdf12" upstream="refs/heads/master"/>
 </manifest>
