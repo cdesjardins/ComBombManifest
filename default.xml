@@ -1,11 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="github" alias="origin" fetch="ssh://git@github.com/cdesjardins"/>
-    <default revision="refs/heads/master"       remote="github" sync-j="4"/>
-    <project name="ComBomb.git"     remote="github" path="ComBomb"/>
-    <project name="CDLogger.git"    remote="github" path="CDLogger"/>
-    <project name="cppssh.git"      remote="github" path="cppssh"/>
-    <project name="QueuePtr.git"    remote="github" path="QueuePtr"/>
-    <project name="include.git"     remote="github" path="include"/>
-    <project name="botan.git"       remote="github" path="external/botan" revision="refs/tags/3.12.0"/>
-    <project name="build.git"       remote="github" path="build"/>
+  <remote name="github" fetch="ssh://git@github.com/cdesjardins" alias="origin"/>
+  
+  <default remote="github" revision="refs/heads/master" sync-j="4"/>
+  
+  <project name="CDLogger.git" path="CDLogger" revision="483269f48047e146344fc89c8f99e46b82ee2848" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
+  <project name="ComBomb.git" path="ComBomb" revision="7d5ac889b8db54e37b90e05a102fbd0efdd2965a" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
+  <project name="QueuePtr.git" path="QueuePtr" revision="0c62c7880f45a7c8e0e28bcb822d828f1cf2e716" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
+  <project name="botan.git" path="external/botan" revision="45d6f286c320b2f2efd5373d195ec88c367e3071" upstream="refs/tags/3.12.0" dest-branch="refs/tags/3.12.0"/>
+  <project name="build.git" path="build" revision="6603390426e4796508c1bedf285e828378af5ba6" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
+  <project name="cppssh.git" path="cppssh" revision="58a6afbc6d5314cf3efc0e8cf806bb89f08b4246" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
+  <project name="include.git" path="include" revision="cbdf7f6b0c47dec769999eac37f305ea97c9480d" upstream="refs/heads/master" dest-branch="refs/heads/master"/>
 </manifest>
